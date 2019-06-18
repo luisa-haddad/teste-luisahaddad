@@ -12,7 +12,7 @@ O projeto utiliza o `NextJs` + `SASS` e um Loader que transforma `SASS` em `styl
 O arquivo `./components/CommitsList.js` está utilizando `React.Component` para controle de `state` e `lifecycle`.
 
 ## React Hooks
-Os arquivos `./components/RepoList.js` está utilizando `use.state` para controle de `state` da function.
+Os arquivos `./components/RepoList.js` e `./components/Search.js` estão utilizando `use.state` para controle de `state` das functions.
 
 ## Deploy
 Estou utilizando o now para deploy.
