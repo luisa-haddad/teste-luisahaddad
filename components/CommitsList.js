@@ -13,6 +13,7 @@ class CommitsList extends React.Component {
         this.handleScroll()
     }
     componentDidUpdate(prevProps) {
+        console.log(this.props.commits, 'props', prevProps.commits, 'prev')
         if (this.props.commits !== prevProps.commits) {
             this.handleScroll()
         }
